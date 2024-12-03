@@ -3,6 +3,7 @@ import asyncHandler from 'express-async-handler';
 import express from 'express';
 import {getUpcomingMovies} from '../tmdb-api';
 
+
 const router = express.Router();
 
 router.get('/', asyncHandler(async (req, res) => {
